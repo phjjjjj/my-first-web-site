@@ -39,6 +39,11 @@ h1 {
     #grid ol {
         border-right: none;
     }
+    li {
+        padding-inline-start: 5px;
+        padding-inline-end: 5px;
+        display: inline-block;
+    }
     h1 {
         border-bottom: none;
     }
