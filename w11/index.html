@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    <h1>드라마</h1>
+    <h2>한국 드라마</h2>
+    <h3>본 드라마</h3>
+
+    <ul>
+    <script>
+        kdrama = ["내 여자친구는 구미호", "주군의 태양", "시크릿가든", "내 이름은 김삼순", "빅", "꽃보다 남자", "환혼", "싸인", "역도요정 김복주", "그 해 우리는"];
+        var i = 0;
+        while(i < kdrama.length){
+        document.write("<li><a href='https://ko.wikipedia.org/wiki/" + kdrama[i] + "'>" + kdrama[i] + "</a></li>");
+        document.write("<img src='" + kdrama[i] + ".jpeg'   width='200' height='300' >");
+        i = i + 1;
+        }
+    </script>
+    </ul>
+</body>
+</html>
