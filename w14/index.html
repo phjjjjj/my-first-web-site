@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Perfume</title>
+    <script src="js/master.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+</head>
+<body style="background-color: darkslategray; color: white;">
+<h1>
+    <a href="index.html" id="active">Perfume</a>
+</h1>
+<div id="grid">
+    <ul>
+        <li><a href="top.html">Top note(탑 노트)</a></li>
+        <li><a href="middle.html">Middle note(미들 노트)</a></li>
+        <li><a href="base.html">Base note(베이스 노트)</a></li>
+    </ul>
+    <div>
+    <input id="night_day_1" type="button" value="day" onclick="nightDayHandler(this)"/>
+    <h2>Perfume</h2>
+    <img src="images/perfume.jpg" alt="perfume image" width="400" height="500">
+    <p class="explain" id="point">
+        <span><strong>Perfume</strong></span> is <u>a mixture of fragrant essential oils or aroma compounds (fragrances)</u>, fixatives and solvents, usually in liquid form, used to give the human body, animals, food, objects, and living-spaces an agreeable scent.
+    </p>
+    <p style="margin-top:40px" class="explain">
+        <span>Perfume</span> is described in a musical metaphor as having three sets of notes, making the harmonious scent accord. The notes unfold over time, with the immediate impression of the <a href="top.html">top note</a> leading to the deeper <a href="middle.html">middle notes</a>, and the <a href="base.html">base notes</a> gradually appearing as the final stage. These notes are created carefully with knowledge of the evaporation process of the <span>perfume</span>.
+    </p>
+    <input id="night_day_2" type="button" value="day" onclick="nightDayHandler(this)"/>
+    </div>
+</div>
+</body>
+</html>

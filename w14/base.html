@@ -1,0 +1,31 @@
+<html>
+<head>
+    <title>Base note</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/master.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+</head>
+<body style="background-color: darkslategray; color: white;">
+    <h1><a href="index.html">Perfume</a></h1>
+    <div id="grid">
+    <ul>
+        <li><a href="top.html">Top note(탑 노트)</a></li>
+        <li><a href="middle.html">Middle note(미들 노트)</a></li>
+        <li><a href="base.html" id="active">Base note(베이스 노트)</a></li>
+    </ul>
+    <div>
+        <input id="night_day_1" type="button" value="day" onclick="nightDayHandler(this)"/>
+        <h2>Base note</h2>
+        <img src="images/base.jpg" alt="base note image" width="500" height="300">
+        <p class="explain" id="point">
+            <span><strong>Base notes</strong></span> are <u>the scent of a perfume that appears close to the departure of the middle notes</u>. The <span>base</span> and middle notes together are the main theme of a perfume.
+        </p>
+        <p style="margin-top:20px" class="explain">
+            <span>Base notes</span> bring depth and solidity to a perfume. Compounds of this class are often the fixatives used to hold and boost the strength of the lighter top and middle notes. Consisting of large, heavy molecules that evaporate slowly, compounds of this class of scents are typically rich and "deep" and are usually not perceived until 30 minutes after the application of the perfume or during the period of perfume dry-down.
+            Examples of <span>base notes</span> include tobacco, amber and musk. Some <span>base notes</span> can still be detectable in excess of twenty-four hours after application, particularly the animalic and musk notes.
+        </p>
+        <input id="night_day_2" type="button" value="day" onclick="nightDayHandler(this)"/>
+    </div>
+    </div>
+    </body>
+</html>

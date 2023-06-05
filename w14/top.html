@@ -1,0 +1,33 @@
+<html>
+<head>
+    <title>Top note</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/master.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+</head>
+<body style="background-color: darkslategray; color: white;">
+    <h1>
+        <a href="index.html">Perfume</a>
+    </h1>
+    <div id="grid">
+    <ul>
+        <li><a href="top.html" id="active">Top note(탑 노트)</a></li>
+        <li><a href="middle.html" >Middle note(미들 노트)</a></li>
+        <li><a href="base.html" >Base note(베이스 노트)</a></li>
+    </ul>
+    <div>
+        <input id="night_day_1" type="button" value="day" onclick="nightDayHandler(this)"/>
+        <h2>Top note</h2>
+        <img src="images/top.jpg" alt="top note image" width="400" height="500">
+        <p class="explain" id="point">
+        <span><strong>Top notes</strong></span> are otherwise called the <strong>head notes</strong>.
+        </p>
+        <p style="margin-top:20px" class="explain">
+        The scents that <u>are perceived immediately on application of a perfume</u>. <span>Top notes</span> consist of small, light molecules that evaporate quickly. They form a person's initial impression of a perfume and thus are very important in the selling of a perfume.
+        Citrus and ginger scents are common <span>top notes</span>.
+        </p>
+        <input id="night_day_2" type="button" value="day" onclick="nightDayHandler(this)"/>
+    </div>
+    </div>
+</body>
+</html>

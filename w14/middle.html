@@ -1,0 +1,31 @@
+<html>
+<head>
+    <title>Middle note</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/master.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+</head>
+<body style="background-color: darkslategray; color: white;">
+    <h1><a href="index.html">Perfume</a></h1>
+    <div id="grid">
+    <ul>
+        <li><a href="top.html">Top note(탑 노트)</a></li>
+        <li><a href="middle.html" id="active">Middle note(미들 노트)</a></li>
+        <li><a href="base.html">Base note(베이스 노트)</a></li>
+    </ul>
+    <div>
+        <input id="night_day_1" type="button" value="day" onclick="nightDayHandler(this)"/>
+        <h2>Middle note</h2>
+        <img src="images/middle.jpg" alt="middle note image" width="400" height="500">
+        <p class="explain" id="point">
+            <span><strong>Middle notes</strong></span> are also called the <strong>"heart notes"</strong>, the <span>middle notes</span> are the scent of a perfume that emerges just before the top notes dissipate.
+        </p>
+        <p style="margin-top:20px" class="explain">
+            The <span>middle note</span> compounds form the "heart" or main body of a perfume and act to mask the often unpleasant initial impression of base notes, which become more pleasant with time.
+            Examples of <span>middle notes</span> include seawater, sandalwood, rose and jasmine.
+        </p>
+        <input id="night_day_2" type="button" value="day" onclick="nightDayHandler(this)"/>
+    </div>
+    </div>
+    </body>
+</html>
